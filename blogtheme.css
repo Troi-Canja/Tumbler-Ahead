@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Condensed:ital,wght@0,700;1,700&display=swap');
+:root {
+	font-family: 'PT Serif', serif;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	line height:  1.4;
+	color: var(--dark);
+	grid-column: 1fr 0.51in [start] 1.25in 5in 1.25in [end] 0.51in 1fr;
+}
+img {
+	width: 60%;
+	align-items: center;
+}
+.container{
+	align-items: center;
+	max-width: 1320px;
+	margin: 0 auto;
+	padding: 0 1.2rem;
+}
+/*header*/
+header{
+	min-height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+	url(pexels.jpeg) center/ cover no-repeat fixed;;
+	display: flex;
+	flex-direction: column;
+	justify-content: stretch;
+}
+.navbar {
+	background: darkslategrey;
+	padding: 1.2rem;
+}
+.navbar-brand {
+	color: lightslategray;
+	font-size: 2rem;
+	display: block;
+	text-align: center;
+	font-family: 'PT Serif', serif;
+}
+.navbar-nav {
+	padding: 0.8rem 0.2rem 0;
+	text-align: center;
+}
+.navbar-nav a { 
+	font-family: 'PT Serif', serif;
+	font-weight: 500;
+	font: monospace;
+	color: darkgoldenrod;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0.5rem;
+}
+.banner {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: black;
+}
+.banner-title {
+	font-size: 3rem;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: darkkhaki;
+}
+.banner-title span {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: wheat;
+}
+.banner p {
+	font-family: 'Roboto Condensed:Italic', sans-serif;
+	color: ivory;
+	font-size: 2rem;
+}
+.banner a {
+	color: navajowhite;
+}
+.explain {
+	background-color: ghostwhite;
+	border: 20px darkslategrey;
+	margin-left: 300px;
+	margin-right: 300px;
+	padding: 10px;
+}
+.explain p {
+	font-size: 1rem;
+	justify-content: left;
+	text-align: justify;
+	color: black;
+}
+.source {
+	font-size: 1rem;
+	text-align: right;
+	justify-content: right;
+	max-width: 1320px;
+}
